@@ -34,7 +34,7 @@ pyconfdir=${pyrootdir}/config-${abi}-${ARCH/i6/i3}-cygwin
 pydylddir=${pyrootdir}/lib-dynload
 
 PKG_NAMES="python${slot/.} python${slot/.}-devel python${slot/.}-test python${slot/.}-tkinter idle${slot/.}"
-python37_REQUIRES="binutils libuuid-devel" # ctypes.util.find_library, uuid.py
+python37_REQUIRES="binutils" # ctypes.util.find_library
 python37_REQUIRES+=" python-pip-wheel python-setuptools-wheel" # ensurepip
 python37_CONTENTS="
 	--exclude=idle3* --exclude=idlelib
