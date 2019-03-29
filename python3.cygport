@@ -1,5 +1,5 @@
 NAME="python37"
-VERSION=3.7.2
+VERSION=3.7.3
 RELEASE=1
 CATEGORY="Python Interpreters"
 SUMMARY="Py3K language interpreter"
